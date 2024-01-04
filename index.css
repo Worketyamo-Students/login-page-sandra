@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew&family=Open+Sans:ital,wght@0,300;0,400;1,400&family=Poppins:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Press+Start+2P&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.body{
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.parent{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.section-image{
+  display: flex;
+  flex: 1;
+  background-size: 36rem;
+  background-image: url(images/image-computer.svg);
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.section-image img{
+  display: flex;
+  width: 40rem;
+  height: 50rem;
+}
+
+.section-input{
+  display: flex;
+  flex: 1;
+  background-color: #fff;
+  flex-direction: column;
+  padding: 10rem;
+  width: 100%;
+  height: 100%;
+}
+
+.section-input h1{
+  display: flex;
+  font-size: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+
+.flex-a{
+  display: flex;
+  justify-content: end;
+  color: #a6b9ec;
+  margin-top: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.7rem;
+
+}
+
+form{
+  width: 60%;
+  background-color: #fff;
+}
+
+label{
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+}
+
+input{
+  display: flex;
+  width: 22rem;
+  height: 2.8rem;
+  color: #121219;
+  border-radius: 0.7rem;
+  background-color: rgba(217, 211, 211, 0.321);
+}
+
+.boutton{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  padding-left: 3rem;
+}
+
+.boutton button{
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #fff;
+  width: 15rem;
+  height: 3rem;
+  border-radius: 1rem;
+  background: #7286d3;
+  justify-content: center;
+}
+
+.ligne{
+  display: flex;
+  width: 19rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  font-size: 1.25rem;
+  padding-left: 3rem;
+  font-size: 1.2rem;
+  
+}
+
+hr{
+  display: flex;
+  background-color: rgba(80, 77, 77, 0.327);
+  width: 40rem;
+  height: 0.09rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-between;
+  width: 18rem;
+  flex-direction: row;
+  margin-bottom: 5rem;
+  height: 2rem;
+  padding-left: 4rem; 
+}
+
+h2{
+  display: flex;
+  font-size: 2.7rem;
+  align-items: flex-end;
+  padding-left: 7rem;
+  margin-bottom: 3rem;
+  color: #fff;
+  font-family: 'Creepster', system-ui;
+}
